@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班级随机选人系统</title>
+    <link rel="stylesheet" href="Lab8_2302_294_wangrui.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>班级随机选人系统</h1>
+            <div class="class-info">班号：2302 | 学号：294 | 姓名：wangrui</div>
+        </header>
+        
+        <div class="main-content">
+            <div class="student-display">
+                <div id="currentStudent" class="current-student">准备开始</div>
+                <div class="control-buttons">
+                    <button id="startBtn" class="btn start-btn">开始选择</button>
+                    <button id="stopBtn" class="btn stop-btn" disabled>停止选择</button>
+                </div>
+            </div>
+            
+            <div class="student-list-container">
+                <h2>班级名单</h2>
+                <div id="studentList" class="student-list"></div>
+            </div>
+            
+            <div class="history-container">
+                <h2>选中记录</h2>
+                <div id="historyList" class="history-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Lab8_2302_294_wangrui.js"></script>
+</body>
+</html>
